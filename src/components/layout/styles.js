@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
     width: 100%;
     font-family: 'Thasadith';
+    margin: 0;
   }
   ul {
     padding: 0;
