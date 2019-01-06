@@ -14,6 +14,12 @@ export const GlobalStyle = createGlobalStyle`
   ul {
     padding: 0;
   }
+  h1 {
+    margin: 0px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: inherit;
+  }
 `
 
 export const FisrtGradient = styled.div`
@@ -40,7 +46,7 @@ const bgFade1 = keyframes`
   67% {
     opacity: 0;
   }
-`;
+`
 
 export const SecondGradient = styled.div`
   position: fixed;
@@ -71,7 +77,7 @@ const bgFade2 = keyframes`
   84% {
     opacity: 0;
   }
-`;
+`
 
 export const ThirdGradient = styled.div`
   position: fixed;
@@ -91,9 +97,12 @@ export const Footer = styled.footer`
   height: 10vh;
   justify-content: center;
   align-items: flex-end;
-`;
+`
 
 export const Sign = styled.span`
-  font-size: 16px;
-  color: #FFFFFF;
-`;
+  font-size: 14px;
+  color: #ffffff;
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+`
