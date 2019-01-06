@@ -6,6 +6,6 @@
 💭 Collect your feelings <br />
 💭 Connect to your therapist <br />
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Moods](https://i.ibb.co/4pN30Wk/macbookgold-front.png)
 
 Create with 💛 by Valerie
